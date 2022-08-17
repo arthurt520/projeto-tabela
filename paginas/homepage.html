@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML - Arthur Home</title>
+
+	<style>
+
+		*{
+			
+			box-sizing: border-box;
+		}
+		header{
+			background-color:#449E10;
+			color: white;
+			text-align: center;
+			padding:30px;
+			font-size:25px;
+
+		}
+
+		a{
+			text-decoration: none;
+		}
+
+		nav{
+			background-color:#F0FFFF;
+			width:30%;
+			float:left;
+			padding:20px;
+		}
+
+		nav ul{
+			list-style-type: none;
+			padding: 0;
+		}
+
+		article{
+			float:left;
+			width: 70%;
+			padding:20px;
+			background-color:#FFF5EE ;
+			
+		}
+		
+
+		section::after{
+			background-color: #CCC;
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		
+		footer{
+			
+			background-color:#9370DB;
+			text-align: center;
+			color: white;
+			padding: 10px;
+		}
+
+		@media(max-width: 600px){
+			nav,article{
+				width: 100%;
+				height: auto;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Curso Front-end - HTML</h1>
+	</header>
+
+	<section>
+		
+		<nav>
+			<h3>Aulas</h3>
+			<ul>
+				<li><a href="paginas/01-introducao.html">Introdução</a></li>
+				<li><a href="paginas/listas-e-links.html">Listas e links</a></li>
+				<li><a href="paginas/formatacao-de-textos.html">Formatacao de texto</a></li>
+				<li><a href="paginas/tabelas.html">Tabelas</a></li>
+				<li><a href="paginas/layout.html">Layouts</a></li>
+				<li><a href="paginas/formulario.html">Formularios</a></li>
+			</ul>
+
+			<ul>
+				<h3>Redes sociais</h3>
+				<li><a href="https://www.linkedin.com/in/arthur-roberto-730356156/" target="_blank">Linkedin</a></li>
+				<li><a href="https://www.instagram.com/thur_wiill/ " target="_blank">Instagram</a></li>
+			</ul>
+		</nav>
+		
+			<article>
+				<img src="../eu.jpg" width="20%">
+				<h2>Arthur Roberto dos Santos</h2>
+				<p>Analista de suporte e estudante front-end.</p>
+			</article>
+		
+	</section>
+
+	<footer>
+		<h2>Desenvolvido por Arthur</p>
+	</footer>
+
+</body>
+</html>
